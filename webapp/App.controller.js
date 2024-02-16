@@ -6,12 +6,12 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("Quickstart.App", {
-		onPress: function () {
+		onPress : function () {
 			MessageToast.show("Hello UI5!");
 			this.byId("app").to(this.byId("intro"));
 		},
 
-		onInit: function () {
+		onInit : function () {
 			this.getView().setModel(new JSONModel({
 					features: [
 						"Enterprise-Ready Web Toolkit",

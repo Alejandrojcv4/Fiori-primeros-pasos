@@ -1,11 +1,14 @@
 {
-    "name": "ui5.quickstart",
+    "name": "quickstart-tutorial",
+    "private": true,
     "version": "1.0.0",
-    "description": "The UI5 quickstart tutorial",
+    "author": "SAP SE",
+    "description": "UI5 Demo App - Quickstart Tutorial",
     "scripts": {
-        "start": "ui5 serve -o index.html"
+      "start": "ui5 serve",
+      "build": "ui5 build"
     },
     "devDependencies": {
-        "@ui5/cli": "^3.9.1"
+      "@ui5/cli": "^3"
     }
-}
+  }
