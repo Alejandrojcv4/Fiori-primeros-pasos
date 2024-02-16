@@ -6,10 +6,11 @@
 	<App>
 		<Page title="My App">
 			<Button
-				text="Push me"
+				text="Steady..."
 				press=".onPress"
 				type="Emphasized"
-				class="sapUiSmallMargin"/>
+				class="sapUiSmallMargin"
+                icon="sap-icon://thumb-up"/>
 		</Page>
 	</App>
 </mvc:View>

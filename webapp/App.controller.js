@@ -6,7 +6,7 @@ sap.ui.define([
 
 	return Controller.extend("Quickstart.App", {
 		onPress: function () {
-			MessageToast.show("You did it!");
+			MessageToast.show("Hello App!");
 		}
 	});
 
