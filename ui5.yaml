@@ -1,6 +1,6 @@
 specVersion: "3.2"
 metadata:
-  name: ui5.quickstart
+  name: ui5.walkthrough
 type: application
 framework:
   name: OpenUI5
