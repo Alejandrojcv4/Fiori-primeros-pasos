@@ -6,9 +6,9 @@
       class="sapUiResponsiveMargin"
       width="auto"
       items="{invoice>/Invoices}" >
-      <item>
+      <items>
          <ObjectListItem
             title="{invoice>Quantity} x {invoice>ProductName}"/>
-      </item>
+      </items>
    </List>
 </mvc:View>
