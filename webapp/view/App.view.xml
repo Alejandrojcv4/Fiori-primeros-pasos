@@ -3,14 +3,19 @@
    xmlns:mvc="sap.ui.core.mvc" 
    displayBlock="true"
    xmlns="sap.m"
-   xmlns:core="sap.ui.core">
-   <Button
-      text="{i18n>showHelloButtonText}"
-      press=".onShowHello"
-      icon="sap-icon://thumb-up"/>
-   <Input
-      value="{/recipient/name}"
-      description="Hola {/recipient/name}"
-      valueLiveUpdate="true"
-      width="60%"/>
+   xmlns:core="sap.ui.core"
+>
+   <Shell >
+      <App class="myAppDemoWT">
+         <pages>
+            <Page title="{i18n>homePageTitle}">
+               <content>
+                  <mvc:XMLView 
+                     viewName="ui5.walkthrough.view.HelloPanel"/>
+                  <mvc:XMLView viewName="ui5.walkthrough.view.InvoiceList"/>
+               </content>
+            </Page>
+         </pages>
+      </App>
+   </Shell>
 </mvc:View>
