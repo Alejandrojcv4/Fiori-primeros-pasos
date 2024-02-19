@@ -10,7 +10,7 @@ sap.ui.define([
        onShowHello() {
           // read msg from i18n model
           const oBundle = this.getView().getModel("i18n").getResourceBundle();
-          const sRecipient = this.getView().getModel().getProperty("/recipient/name");
+          const sRecipient = this.getView().getModel().getProperty("/recipient/name");//esto es en Component.js
           const sMsg = oBundle.getText("helloMsg", [sRecipient]);
  
           // show message
