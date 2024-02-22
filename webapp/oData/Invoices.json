@@ -39,6 +39,14 @@
             "ShipperName": "Fun Inc.",
             "ShippedDate": "2015-01-27T00:00:00",
             "Status": "A"
+        },
+        {
+            "ProductName": "Mango",
+            "Quantity": 30,
+            "ExtendedPrice": 49.9,
+            "ShipperName": "Fun Inc.",
+            "ShippedDate": "2024-01-27T00:00:00",
+            "Status": "D"
         }
     ]
 }

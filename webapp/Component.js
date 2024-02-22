@@ -29,7 +29,8 @@ sap.ui.define([
              },
              variantes : {
                nombre : "Variante Mundo (component.js)",
-               popup : "El boton funciona como dialogo"
+               popup : "El boton funciona como dialogo",
+               valor:""
              }
           };
           const oModel = new JSONModel(oData);

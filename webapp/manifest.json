@@ -26,6 +26,7 @@
 		  "sap.m": {}
 		}
 	  },
+
 	"models": {
 		"i18n": {
 			"type": "sap.ui.model.resource.ResourceModel",
@@ -40,6 +41,7 @@
 		  "uri": "oData/Invoices.json"
 		}
 	},
+
 	  "rootView": {
 		  "viewName": "ui5.walkthrough.view.App",
 		  "type": "XML",
