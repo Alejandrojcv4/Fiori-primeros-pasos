@@ -16,7 +16,7 @@
             <Toolbar>
                 <Title text="{i18n>invoiceListTitle}"/>
                 <ToolbarSpacer/>                
-                <SearchField width="40%" search=".onFilterInvoices" placeholder="{i18n>SearhField1}"/>
+                <SearchField width="45%" search=".onFilterInvoices" placeholder="{i18n>SearhField1}"/>
                 <Input placeholder="Max Price" value="{/variantes/valor}" valueLiveUpdate="true" width="10%" textAlign="End"/>
             </Toolbar>
             
