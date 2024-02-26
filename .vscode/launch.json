@@ -10,6 +10,26 @@
       "name": "Iniciar Chrome para localhost",
       "url": "http://localhost:8080",
       "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Run Fiori-primeros-pasos-Dev-Fiori",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/@sap/html5-repo-mock/index.js",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PORT": "6004",
+        "MOCK_LOOKUP_DIRS": "[\"webapp\"]",
+        "run.config": "{\"handlerId\":\"ui5_flat_run_config_handler_id\",\"runnableId\":\"/home/user/projects/Fiori-primeros-pasos-Dev-Fiori\"}"
+      },
+      "args": [
+        "--standalone",
+        "/ui5walkthrough/index.html",
+        "--ui5",
+        "{\"version\":\".\"}"
+      ],
+      "envFile": "${workspaceFolder}/.env1",
+      "preLaunchTask": "Build Fiori-primeros-pasos-Dev-Fiori"
     }
   ]
 }
