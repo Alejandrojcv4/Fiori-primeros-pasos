@@ -37,8 +37,7 @@
 		  	}
 		},
 		"invoice": {
-		  "type": "sap.ui.model.json.JSONModel",
-		  "uri": "oData/Invoices.json"
+		  "dataSource": "invoiceRemote"
 		}
 	},
 
